@@ -36,21 +36,21 @@ After performing the API call from OpenWeatherMap API the following Cities data 
 After generating the data a series of scatter plots were created to showcase the following relationships: </br>
 
 ### Latitude vs. Temperature Plot </br>
-![Temperature image](./WeatherPy/Images/Temperature in World Cities.png) 
+![Temperature image](./WeatherPy/Images/Temperature_in_World_Cities.png) 
 
 The above scatter plot showcase the relationship between Latitude at x-axis vs Max Temperature (F) at the y-axis. This result indicates that there is a higher temperature for cities that found near to the equater (Latitude 0),however when you go farther from the equator towards to the north and south the temprature will decrease. </br>
 
 ### Humidity (%) vs. Latitude </br>
-![Humidity image](./WeatherPy/Images/Humidity in World Cities.png) 
+![Humidity image](./WeatherPy/Images/Humidity_in_World_Cities.png) 
 
 The above scatter plot displayed the relationship between Humidity (%) vs. Latitude. From this result we can infer that humidity is fairly distributed troughout the plot, so we can say that high humidity occer for both cities found farther or near to the equator. </br>
 
 ### Cloudiness (%) vs. Latitude </br>
-![Cloudiness image](./WeatherPy/Images/Cloudiness In World Cities.png) 
+![Cloudiness image](./WeatherPy/Images/Cloudiness_In_World_Cities.png) 
 
 The above scatter plot showed that the relationship between the cities cloudness, and latitude. From this result we can tell that the data is evenly distributed, and there is no difference in Cloudiness when the cities farther or nearer to the equater(Latitude 0) </br>
 
 ### Wind Speed (mph) vs. Latitude </br>
-![WindSpeed image](./WeatherPy/Images/Wind Speed In World Cities.png) 
+![WindSpeed image](./WeatherPy/Images/Wind_Speed_In_World_Cities.png) 
 
 The above scatter plot showed the relationship between wind speed (mph), and latitude. The plot displayed the lower wind speed when the cities closer to the equater (latitude 0) and somehow the wind speed increase for the cities farther from the equater.
