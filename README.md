@@ -29,8 +29,8 @@ To run the notebook enter the following into the command line: $ jupyter noteboo
 
 ## Results </br>
 After performing the API call from OpenWeatherMap API the following Cities data was retrieved and dataframe was created: </br>
-![DataRetrieval image](./WeatherPy/Images/Data_Retrieval.png)
-![DataFrame image](./WeatherPy/Images/DataFrame.png) 
+![DataRetrieval image](./WeatherPy/Images/Data_Retrieval.PNG)
+![DataFrame image](./WeatherPy/Images/DataFrame.PNG) 
 
 ## Scatter ploting </br>
 After generating the data a series of scatter plots were created to showcase the following relationships: </br>
