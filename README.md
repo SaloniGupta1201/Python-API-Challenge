@@ -4,7 +4,7 @@
 _Date_: november, 5th, 2020\
 Python API Homework - **WeatherPy** <br/>
 
-![Laboratory image](./WeatherPy/Images/equatorsign.PNG)
+![Equator image](./WeatherPy/Images/equatorsign.png)
 
 ## Background <br/>
 Python script to visualize the weather of 500+ cities across the world of varying distance from the equator using CityPy, a simple Python library, and the OpenWeatherMap API.
