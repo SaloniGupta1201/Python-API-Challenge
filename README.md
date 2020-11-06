@@ -20,12 +20,20 @@ Temperature (F) vs. Latitude | Humidity (%) vs. Latitude | Cloudiness (%) vs. La
 Each of these parameters was plotted against the cities latitude to see how temperature varies with distance from the equator. 1500 random coordinate pairs were used to find over 500 cities to perform this analyses. The data and visualizations from this analysis can be found on this site. Click on any of the images in Images folder above to see more analysis. </br>
 
 ## Requirements
-This notebook requires python to be installed. Python 3.8.3 was used during development. The pandas library used to store, manipulate, filter, merge and perform calculations with the data. The matplotlib and numpy libraries were used to generate the plots showing the trends of various parameters versus latitude. The citipy library was used to get the coordinate pairs used to call openweathermap api. The requests library was used to make the actual calls to the openweathermap api. The jupyter library was used to execute the python code and display results. </br>
+This notebook requires python to be installed. Python 3.8.3 was used during development. The pandas library used to store, manipulate, filter, merge and perform calculations with the data. The matplotlib and numpy libraries were used to generate the plots showing the trends of various parameters versus latitude. The citipy library was used to get the coordinate pairs used to call openweathermap api. The requests library was used to make the actual calls to the openweathermap api. The jupyter library was used to execute the python code and display results.The data analyzed, and displayed on WeatherPy jupyter notebook, and the results are exported in CSV format CityData.csv, </br>
 
-We also need to create a api_keys.py file containing api keys for openweatherapi. </br>
+We also need to create a api_keys.py file containing api keys for openweatherapi and it looks as follows:
+weather_api_key="API_KEY_HERE" </br>
 
 ## Running the Code
 To run the notebook enter the following into the command line: $ jupyter notebook Open up the WeatherPy.ipynb notebook in your browser and then click the 'Kernel' and the 'Restart and run all option' </br>
+
+## Observable Trends and Insights
+Not surprisingly, temperature increases as we approach the equator(Latitude 0). However, temperature peaks at around -18 and 37 degrees latitude, not exactly at the equatorial line. This may be due to the Earth's tilt in the axis.
+
+The findings from the data, plots, in the case of testing if there is a relation between humidity and cloudiness of cities nearer or farther to the equator (latitude 0) doesn't show any significant results. The visualizations below shows a great variety of values at similar latitudes.
+
+The finding from the analysis of the relationship between wind speed (mph), and latitude showed lower wind speed when the cities closer to the equater (latitude 0), and Wind speed appears to slightly increase as we move away from the equator. We would need to go beyond the ranged examined to make a definitive conclusion.
 
 ## Results </br>
 After performing the API call from OpenWeatherMap API the following Cities data was retrieved and dataframe was created: </br>
@@ -48,9 +56,9 @@ The above scatter plot displayed the relationship between Humidity (%) vs. Latit
 ### Cloudiness (%) vs. Latitude </br>
 ![Cloudiness image](./WeatherPy/Images/Cloudiness_In_World_Cities.png) 
 
-The above scatter plot showed that the relationship between the cities cloudness, and latitude. From this result we can tell that the data is evenly distributed, and there is no difference in Cloudiness when the cities farther or nearer to the equater(Latitude 0) </br>
+The above scatter plot showed that the relationship between the cities cloudness, and latitude. From this result we can tell that the data is evenly distributed, and there is no difference in Cloudiness when the cities farther or nearer to the equator(Latitude 0) </br>
 
 ### Wind Speed (mph) vs. Latitude </br>
 ![WindSpeed image](./WeatherPy/Images/Wind_Speed_In_World_Cities.png) 
 
-The above scatter plot showed the relationship between wind speed (mph), and latitude. The plot displayed the lower wind speed when the cities closer to the equater (latitude 0) and somehow the wind speed increase for the cities farther from the equater.
+The above scatter plot showed the relationship between wind speed (mph), and latitude. The plot displayed the lower wind speed when the cities closer to the equater (latitude 0) and somehow the wind speed increase for the cities farther from the equator.
