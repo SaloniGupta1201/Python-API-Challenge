@@ -66,7 +66,7 @@ The above scatter plot showed the relationship between wind speed (mph), and lat
 Second part of the project is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 ### Northern Hemisphere - Temperature (F) vs. Latitude</br>
-![Temp_Lat_NH image](./WeatherPy/Images/Northern_Hemisphere_Max _Temp_vs._Latitude_Linear_Regression.png) 
+![Temp_Lat_NH image](./WeatherPy/Images/Northern_Hemisphere_Max_Temp_vs._Latitude_Linear_Regression.png) 
 
 The r-squared is: 0.73 .The above plot is a linear regression model between Maximum tempreture and latitude for Northern Hemisphere cities. The result from the data showed that there is a strong, negative correlation between Maximum tempreture and latitude. These means when we go farther away to the north from the equater(latitude 0) the maximum Temperature (F) will decrease.
 
