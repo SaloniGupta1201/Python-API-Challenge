@@ -62,3 +62,48 @@ The above scatter plot showed that the relationship between the cities cloudness
 ![WindSpeed image](./WeatherPy/Images/Wind_Speed_In_World_Cities.png) 
 
 The above scatter plot showed the relationship between wind speed (mph), and latitude. The plot displayed the lower wind speed when the cities closer to the equater (latitude 0) and somehow the wind speed increase for the cities farther from the equator.
+
+My second objective is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+
+### Northern Hemisphere - Temperature (F) vs. Latitude</br>
+![Temp_Lat_NH image](./WeatherPy/Images/.png) 
+
+
+The r-squared is: 0.72 .The above plot is a linear regression model between Maximum tempreture and latitude for Northern Hemisphere cities. The result from the data showed that there is a strong, negative correlation between Maximum tempreture and latitude. These means when we go farther away to the north from the equater(latitude 0) the maximum Temperature (F) will decrease.
+
+### Southern Hemisphere - Temperature (F) vs. Latitude </br>
+![Temp_Lat_SH image](./WeatherPy/Images/.png) 
+
+The r-squared is: 0.44. The above scattered graph is a linear regression model between Maximum Temperature and Latitude for Southern Hemisphere cities. The result from the data showed that there is a moderate positive correlation between latitude and max temperature for southern hemisphere.
+
+### Northern Hemisphere - Humidity (%) vs. Latitude </br>
+![Hum_Lat_NH image](./WeatherPy/Images/Northern_Hemisphere_Humidity_vs._Latitude_Linear_Regression.png)  
+
+
+The r-squared is: 0.17 The above plot is a linear regression model between Humidity (%) and Latitude for Northern Hemisphere cities. The result from the data showed that there is a moderate positive correlation between Humidity (%) and Latitude in the Northern Hemisphere cities.
+
+### Southern Hemisphere - Humidity (%) vs. Latitude
+![Hum_Lat_SH image](./WeatherPy/Images/Southern_Hemisphere_Humidity_vs._Latitude_Linear_Regression.png) 
+
+
+The r-squared is : .The above plot is a linear regression model between Humidity (%) and Latitude for Southern Hemisphere cities. The result from the data showed that there is a very week positive correlation between Humidity (%) and Latitude in the Southern Hemisphere cities..
+
+### Northern Hemisphere - Cloudiness (%) vs. Latitude
+![Cloud_Lat_NH image](./WeatherPy/Images/Northern_Hemisphere_Cloudiness_Latitude_Linear.png) 
+
+The r-squared is: 0.04 .The above plot is a linear regression model between Cloudiness (%) and Latitude for Northern_Hemisphere cities. The result from the data showed that there is a week positive correlation between Cloudiness (%) and Latitude in the Southern Hemisphere cities. </br>
+
+### Southern Hemisphere - Cloudiness (%) vs. Latitude
+![Cloud_Lat_SH image](./WeatherPy/Images/Southern_Hemisphere_Cloudiness_Latitude_Linear.png) 
+
+The r-squared is : 0.1 The above plot is a linear regression model between Cloudiness (%) and for Southern Hemisphere cities. The result from the data showed that there is a week positive correlation between Cloudiness (%) and Latitude in the Southern Hemisphere cities.¶
+
+### Northern Hemisphere - Wind Speed (mph) vs. Latitude
+![Wind_Lat_NH image](./WeatherPy/Images/Northern_Hemisphere_Wind_Speed_Latitude_Lin.png) 
+
+The r-squared is : 0.02. The above plot is a linear regression model between Wind Speed (mph), and latitude for Northern Hemisphere cities. The result from the data showed that there is a very week positive correlation between Wind Speed (mph (%) and Latitude in the Northern Hemisphere cities.
+
+### Southern Hemisphere - Wind Speed (mph) vs. Latitude
+![Wind_Lat_SH image](./WeatherPy/Images/Southern_Hemisphere_Wind_Speed_Latitude_Linear_Regression.png) 
+
+The r-squared is :  .The above plot is a linear regression model between Wind Speed (mph), and latitude for Southern Hemisphere. The result from the data showed that there is a very week negative correlation between Wind Speed (mph (%) and Latitude in the Southern Hemisphere cities.
